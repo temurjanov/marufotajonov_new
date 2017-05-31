@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Контакты | Maruf Otajonov | Добро пожаловать на официальный сайт Маруфа Отагонова</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#151515">
+    <meta name="msapplication-navbutton-color" content="#111">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- CSS -->
+	<link rel="stylesheet" href="./css/bundle.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <i class="ti-menu"></i>
+                    </button>
+                    <a class="navbar-brand" href="index.html">MARUF OTAJONOV</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="news.html">Новости</a></li>
+                            <li><a href="works.html" >Работы</a></li>
+                            <li><a href="bio.html">Биография</a></li>
+                            <li><a href="contact.html" class="active">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Contact -->
+    <section id="others">
+        <div class="container">
+            <div class="page-title">
+                <h1>Контакты</h1> 
+                <a href="index.html"><i class="ti-arrow-left"></i> назад на главную</a>
+            </div>
+            <div class="row contact">
+                <div class="col-md-8 col-xs-12">
+                <form>
+                  <div class="material-input">
+                    <input autofocus="true" id="name" minlength="2" placeholder=" " required="true" type="text" /><label for="name">Ваше Имя</label><span class="error">Введите не менее 2 букв</span>
+                  </div>
+                  <div class="material-input">
+                    <input id="email" placeholder=" " required="true" type="email" /><label for="email">Ваш адрес электронной почты</label><span class="error">Сообщение об ошибке. На всякий случай :)</span>
+                  </div>
+                  <div class="material-input">
+                    <input id="text" placeholder=" " minlength="2" required="true" type="text" /><label for="theme">Тема сообщение</label><span class="error">Сообщение об ошибке. На всякий случай :)</span>
+                  </div>
+                  <div class="material-textarea">
+                    <textarea id="body" maxlength="500" minlength="10" onkeyup="document.getElementById(&#39;counter&#39;).innerHTML = this.value.length;" placeholder=" " required="true"></textarea><label for="body">Ваше сообщение</label><span class="error">Body have to contain at least 10 characters</span><span id="counter">0</span>
+                  </div>
+                  <button class="material-button" type="submit">Отправить информацию</button>
+                </form>
+                    <!-- <form>
+                      <div class="form-group">
+                        <label for="name">Имя Фамилия (обязательно)</label>
+                        <input type="text" class="form-control" id="name" placeholder="Ваше Имя" required />
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Электронная почта (обязательно)</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ваш Электронная почта" required />
+                      </div>
+                      <div class="form-group">
+                        <label for="theme">Тема</label>
+                        <input type="text" class="form-control" id="theme" placeholder="Email">
+                      </div>
+                      <div class="form-group">
+                        <label for="theme">Сообщение</label>
+                        <textarea name="sendmessage" class="form-control" placeholder="Сообщение..."></textarea>
+                      </div>
+                      <button type="submit" class="btn">Отправить</button>
+                    </form> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="others">
+        <div class="container">
+            <div class="home-foot">
+                <p>&copy 2017 Maruf Otajonov. Все права защищены.</p>
+                <ul class="foot-social">
+                    <li><a href="https://www.facebook.com/marufotajonovofficial" target="_blank"><i class="ti-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/maruf_otajonov" target="_blank"><i class="ti-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./js/bundle.js"></script>
+</body>
+</html>
